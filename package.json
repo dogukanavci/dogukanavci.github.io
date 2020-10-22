@@ -1,0 +1,26 @@
+{
+  "name": "dogukanavci.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogukanavci/dogukanavci.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Dogukan Avci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogukanavci/dogukanavci.github.io/issues"
+  },
+  "homepage": "https://github.com/dogukanavci/dogukanavci.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
