@@ -3,7 +3,7 @@ window.addEventListener("scroll", function () {
 }, false);
 
 window.addEventListener("load", function () {
-    LoadGame();
+    //LoadGame();
 }, false);
 
 var navbar = document.getElementById("navbar");

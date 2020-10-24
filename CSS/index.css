@@ -19,7 +19,7 @@ html{
     text-align: center;
     width: 25%;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 3.0vw;;
 }
 
 #navbar a:hover {
@@ -52,9 +52,9 @@ padding-top: 60px;
 }
 
 .item {
+    overflow: hidden;
     background-color: #F2CC8F;
     width: 50%;
-    height: 43em;
 }
 .item h2{
     font-size : 3.0vw;
@@ -65,7 +65,7 @@ padding-top: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
     border-radius: 50%;
 }
 .item p{
@@ -76,18 +76,19 @@ padding-top: 60px;
 
 .item:first-child {
     order: 1;
-    width: 40%;
+    width: 100%;
 }
 
 .item:nth-child(2) {
   order: 2;
-  width: 60%;
+  width: 0%;
   background-color: #F4F1DE;
+  height: 0%;
 }
 .item:nth-child(3) {
     order: 3;
     width: 100%;
-    height: 8em;
+    height: 2%;
     background-color: #E07A5F;
 }
 .item:nth-child(4) {
@@ -122,6 +123,7 @@ padding-top: 60px;
     order: 5;
     width: 50%;
     background-color: #3D405B;
+    height: 10%;
 }
 #multishooting img{
     display: block;
@@ -131,12 +133,12 @@ padding-top: 60px;
     border-radius: 10%;
 }
 #multishooting h2{
-    font-size : 2.4vw;
+    font-size : 2.55vw;
     color: #F4F1DE;
     text-align: center;
 }
 #multishooting p{
-    font-size : 1.3vw;
+    font-size : 1.76vw;
     color: #F4F1DE;
     text-align: center;
 }
@@ -144,7 +146,7 @@ padding-top: 60px;
     color: #F4F1DE;
     text-decoration: none;
     font-weight: bold;
-    font-size : 1.0vw;
+    font-size : 1.7vw;
 }
 .item:nth-child(6) {
     order: 6;
@@ -261,7 +263,7 @@ padding-top: 60px;
 .item:nth-child(10) {
     order: 10;
     width: 100%;
-    height: 26em;
+    height: 3%;
     background-color: #81B29A;
     text-align: center;
 }
@@ -300,7 +302,7 @@ padding-top: 60px;
 .item:nth-child(11) {
     order: 11;
     width: 100%;
-    height: 8em;
+    height: 1%;
     background-color: #3D405B;
 }
 #experiences h2{
@@ -309,7 +311,7 @@ padding-top: 60px;
 .item:nth-child(12) {
     order: 12;
     width: 100%;
-    height: 1em;
+    height: 0.5%;
     background-color: #81B29A;
 }
 #technicalExperience h2{
@@ -320,7 +322,7 @@ padding-top: 60px;
 .item:nth-child(13) {
     order: 13;
     width: 70%;
-    height: 38em;
+    height: 4%;
     background-color: #E07A5F;
 }
 #workExperience h4{
@@ -342,7 +344,7 @@ padding-top: 60px;
 .item:nth-child(14) {
     order: 14;
     width: 30%;
-    height: 38em;
+    height: 5%;
     background-color: #F2CC8F;
 }
 #education h4{
@@ -363,7 +365,7 @@ padding-top: 60px;
 .item:nth-child(15) {
     order: 15;
     width: 100%;
-    height: 1em;
+    height: 0.5%;
     background-color: #81B29A;
 }
 #otherExperience h2{
@@ -373,8 +375,8 @@ padding-top: 60px;
 }
 .item:nth-child(16) {
     order: 16;
-    width: 50%;
-    height: 15em;
+    width: 100%;
+    height: 1.5%;
     background-color: #F4F1DE;
 }
 #communityExperience h4{
@@ -403,13 +405,13 @@ padding-top: 60px;
 .item:nth-child(17) {
     order: 17;
     width: 50%;
-    height: 15em;
+    height: 1.5%;
     background-color: #3D405B;
 }
 .item:nth-child(18) {
     order: 18;
     width: 100%;
-    height: 8em;
+    height: 1%;
     background-color: #81B29A;
 }
 footer{
